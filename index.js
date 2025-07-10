@@ -29,7 +29,7 @@ app.use('/api/crops', cropRoutes);
 app.use('/api/livestock', livestockRoutes);
 app.use('/api/inputs', inputRoutes);
 app.use('/api/services', serviceRoutes);
-app.use('/api/orders', orderRoutes);
+app.use('/api/orders', ordersRoutes);
 app.use('/api/weather', weatherRoutes);
 app.use('/api/market-prices', marketPriceRoutes);
 app.use('/api/ussd', ussdRoutes);
